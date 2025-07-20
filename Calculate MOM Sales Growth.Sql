@@ -1,4 +1,4 @@
--- Q. You Have a monthly sales table you have to calculate the month on month sales growth 
+-- Q. You have given a sales table that holds monthly total sales You have to write a query to calculate the month-on-month sales growth percentage
 
 
 create table Sales (
