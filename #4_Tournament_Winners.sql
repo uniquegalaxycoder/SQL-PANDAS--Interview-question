@@ -1,3 +1,9 @@
+-- Note : 
+-- For this question, I have created a table in pandas & pushed it into SQL Server Management Studio database.
+-- If you want a script for this, please send me a request to omkarghodake238200@gmail.com on this email address with the subject ->
+-- " Request : Pandas Script to push df into SQL Database "
+
+
 -- Write a query  to find the winner in each group
 -- The winner in each group is the player who scored the maximum total points within the group. In the case of a tie
 --the loweest player_id wins
@@ -55,4 +61,4 @@ select
 from cte3 
 where score_rank = 1
 
--- in abov code we filltering the output 
+-- In above code, we filtering the output. 
