@@ -66,6 +66,8 @@ from emp_2020 as a
 right join emp_2021 as b 
 on a.emp_id = b.emp_id   
 )
+
+	
 select
 	COALESCE(emp_id20, emp_id21) as emp_id,
   	changes as comments
