@@ -9,7 +9,16 @@ Tables: categories
 | products    | varchar(30) |
 +-------------+-------------+
 
+data :
 
++-------------+-------------------------------+
+| Categoty    | Products                      |
++-------------+-------------------------------+
+| Electronic  | Battery, Laptop, Mobile, Bulb |
+| Furniture   | Chair, Dine-Table             |
+| Clothing    | T-Shirt                       |
+| Groceries   | Rice, VegitableOil, seeds     |
++-------------+-------------------------------+
 
 """
 
