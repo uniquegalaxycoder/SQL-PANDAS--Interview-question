@@ -1,7 +1,8 @@
 """
 Zomato is planning to offer a premium membership to customers who have placed multiple orders in a single day.
 
-Your task is to write a SQL to find those customers who have placed multiple orders in a single day at least once , total order value generate by those customers and order value generated only by those orders, display the results in ascending order of total order value.
+Your task is to write a SQL to find those customers who have placed multiple orders in a single day at least once , total order value generate by those 
+customers and order value generated only by those orders, display the results in ascending order of total order value.
 
  
 
