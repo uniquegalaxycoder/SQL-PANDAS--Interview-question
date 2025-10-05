@@ -43,7 +43,8 @@ df2 = orders_df.groupby('customer_name').agg(
 final_df = pd.merge(left = df1, right = df2, left_on = 'customer_name', right_on = 'customer_name', how = 'left').reset_index(drop=True)
 
 #here we have selected those columns only required in the output table
-final_df = final_df[['customer_name', 'total_value', 'total_ords_value']]
+final_df = final_df[['customer_name', 'total_value', 'total_ords_value']].sort_values(by = ['total_ords_value'], ascending = True)
+
 print(final_df)
 
 
