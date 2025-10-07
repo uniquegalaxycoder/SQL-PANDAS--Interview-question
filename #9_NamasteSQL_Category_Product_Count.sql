@@ -23,6 +23,16 @@ data :
 | Groceries   | Rice, VegitableOil, seeds     |
 +-------------+-------------------------------+
 
+Data( MYSQL Sytntax ) : 
+
+	
+create table categories (category varchar(50), products varchar(200)) ; # table creating
+
+insert into categories values ('Electronic' , 'Battery, Laptop, Mobile, Bulb');  # data inserting into table
+insert into categories values ('Furniture'  , 'Chair, Dine-Table');
+insert into categories values ('Clothing'   , 'T-Shirt' );
+insert into categories values ('Groceries'   ,'Rice, VegitableOil, seeds');
+	
   
 """
 
