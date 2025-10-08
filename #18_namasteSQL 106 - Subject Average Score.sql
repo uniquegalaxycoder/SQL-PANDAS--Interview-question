@@ -1,5 +1,6 @@
 """
-  Write an SQL query to find the course names where the average score (calculated only for students who have scored less than 70 in at least one course) is greater than 70. Sort the result by the average score in descending order.
+  Write an SQL query to find the course names where the average score (calculated only for students who have scored less than 70 in at least one course) is greater than 70. 
+	Sort the result by the average score in descending order.
 
  
 
